@@ -10,19 +10,19 @@
 
 ## 핵심 기능 (Key Features)
 
-### 1. AI 바디 스캐너 (Body Shape Analyzer)
+### 1. 🧍‍♂️ AI 바디 스캐너 (Body Shape Analyzer)
 - **동작 원리:** 이미지 비전 기술을 활용하여 사용자의 전신 사진에서 주요 관절 및 신체 윤곽선(Landmark)을 추출합니다.
-- **핵심 기술:** [사용된 기술, 예: MediaPipe / OpenCV / YOLOv8 등]을 활용한 신체 비율 및 수치 추론.
+- **핵심 기술:** YOLOv8 및 MediaPipe, OpenCV를 활용한 신체 비율 및 체형 수치 추론.
 - **기대 효과:** 단순히 'S/M/L' 사이즈 표기를 넘어, 어깨너비, 기장 등 세밀한 체형 데이터를 기반으로 사용자에게 딱 맞는 의류 핏을 계산합니다.
 
 ### 2. 퍼스널 컬러 추출기 (Personal Color Extractor)
 - **동작 원리:** 사용자 이미지에서 얼굴 영역을 정확히 인식한 후, 픽셀 색상 데이터를 분석하여 웜/쿨톤 및 4계절 퍼스널 컬러를 도출합니다.
-- **핵심 기술:** [예: Dlib/OpenCV를 통한 얼굴 인식 및 K-Means 클러스터링 알고리즘]을 적용한 피부/머리/눈동자 색상 추출.
+- **핵심 기술:** OpenCV를 통한 얼굴 객체 인식 및 K-Means 클러스터링 알고리즘을 적용한 피부/머리/눈동자 색상 추출.
 - **기대 효과:** 사용자 본인의 퍼스널 컬러에 최적화된 옷 색상을 추천하여 중고 의류 구매 후 만족도를 극대화합니다.
 
 ## 기술 스택 (Tech Stack)
-- **AI / Computer Vision:** `Python`, `OpenCV`, `[PyTorch / TensorFlow / MediaPipe 등]`
-- **Backend / API:** `[FastAPI 또는 Flask / Spring Boot 등 추론 서버 구성에 쓴 기술]`
+- **AI / Computer Vision:** `Python`, `OpenCV`, `YOLOv8`, `MediaPipe`
+- **Backend / API:** `FastAPI` (AI 추론 서버), `Spring Boot` (메인 서비스 연동)
 - **Architecture:** AI 모델의 추론 결과를 메인 서비스(CLO-VER) 프론트엔드로 빠르고 안정적으로 전달하기 위한 RESTful API 설계
 
 ## 나의 역할 및 성과 (My Role & Impact)
@@ -31,10 +31,9 @@
 * **API 연동:** 도출된 체형 및 컬러 분석 데이터를 메인 백엔드(Spring Boot) 및 데이터베이스(MySQL)와 유기적으로 연동
 
 ## 시연 및 실행 화면 (Demo)
--체형분석
-<img width="400" height="213" alt="Image" src="https://github.com/user-attachments/assets/5bd240e4-b67d-4936-94ca-03fb9f3d58c8" />
 
--퍼스널 컬러
-<img width="400" height="212" alt="Image" src="https://github.com/user-attachments/assets/0d2d2f4e-1b03-41d1-b4ae-b91ffbcaa849" />
+### 체형 분석 (Body Scan)
+<img width="500" alt="체형 분석 결과 화면" src="https://github.com/user-attachments/assets/5bd240e4-b67d-4936-94ca-03fb9f3d58c8" />
 
-
+### 퍼스널 컬러 분석 (Color Extraction)
+<img width="500" alt="퍼스널 컬러 분석 결과 화면" src="https://github.com/user-attachments/assets/0d2d2f4e-1b03-41d1-b4ae-b91ffbcaa849" />
