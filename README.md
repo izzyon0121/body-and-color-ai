@@ -35,6 +35,6 @@
 <img width="400" height="213" alt="Image" src="https://github.com/user-attachments/assets/5bd240e4-b67d-4936-94ca-03fb9f3d58c8" />
 
 -퍼스널 컬러
-https://github.com/izzyon0121/body-and-color-ai/issues/2#issue-4685070058
+<img width="400" height="212" alt="Image" src="https://github.com/user-attachments/assets/0d2d2f4e-1b03-41d1-b4ae-b91ffbcaa849" />
 
 
