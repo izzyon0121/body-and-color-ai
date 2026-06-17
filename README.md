@@ -34,4 +34,7 @@
 -체형분석
 https://github.com/izzyon0121/body-and-color-ai/issues/1#issue-4685056527
 
+-퍼스널 컬러
+https://github.com/izzyon0121/body-and-color-ai/issues/2#issue-4685070058
+
 
