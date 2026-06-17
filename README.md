@@ -32,7 +32,7 @@
 
 ## 시연 및 실행 화면 (Demo)
 -체형분석
-https://github.com/izzyon0121/body-and-color-ai/issues/1#issue-4685056527
+<img width="400" height="213" alt="Image" src="https://github.com/user-attachments/assets/5bd240e4-b67d-4936-94ca-03fb9f3d58c8" />
 
 -퍼스널 컬러
 https://github.com/izzyon0121/body-and-color-ai/issues/2#issue-4685070058
